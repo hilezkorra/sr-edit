@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a594fd"/>
+      <stop offset="100%" stop-color="#7c6cfc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: rounded square background -->
+  <rect x="0" y="8" width="56" height="56" rx="12" fill="#1a1a28"/>
+  <rect x="0" y="8" width="56" height="56" rx="12" fill="none" stroke="#2a2a42" stroke-width="1.5"/>
+
+  <!-- Pen nib — clean geometric -->
+  <!-- Barrel -->
+  <rect x="22" y="16" width="12" height="28" rx="4" fill="url(#pg)"/>
+  <!-- Grip band -->
+  <rect x="22" y="38" width="12" height="5" rx="1" fill="#0a0a18" opacity="0.5"/>
+  <!-- Nib tip -->
+  <polygon points="22,44 34,44 28,58" fill="#a594fd"/>
+  <!-- Ink line on nib -->
+  <line x1="28" y1="44" x2="28" y2="58" stroke="#7c6cfc" stroke-width="1.5" opacity="0.6"/>
+  <!-- Cap dot -->
+  <circle cx="28" cy="18" r="3" fill="#fff" opacity="0.25"/>
+
+  <!-- Refresh arc — right side of icon -->
+  <path d="M 42 26 A 10 10 0 1 1 32 46"
+        fill="none" stroke="#7c6cfc" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Arrowhead -->
+  <polygon points="29,43 36,48 36,39" fill="#7c6cfc" opacity="0.7"/>
+
+  <!-- Wordmark -->
+  <text x="70" y="42"
+        font-family="Syne,system-ui,sans-serif"
+        font-size="30" font-weight="800" letter-spacing="-0.5"
+        fill="#e8e8f0">SR</text>
+  <text x="113" y="42"
+        font-family="Syne,system-ui,sans-serif"
+        font-size="30" font-weight="300" letter-spacing="-0.5"
+        fill="#9090a8"> Edit</text>
+
+  <!-- Sub label -->
+  <text x="71" y="57"
+        font-family="DM Mono,monospace,sans-serif"
+        font-size="9" font-weight="400" letter-spacing="2.5"
+        fill="#5a5a72">VISUAL SITE EDITOR</text>
+</svg>
